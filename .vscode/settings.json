@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./calcu/calculadora-tdd-01-empezamos/src"
+    ]
+}
