@@ -13,3 +13,7 @@ class Calculator:
     #creamos una funcion para la multiplicacion
     def multi(self, a, b):
         self.value = a * b
+
+    #creamos una funcion para la division
+    def division(self, a, b):
+        self.value = a / b

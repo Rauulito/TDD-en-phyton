@@ -37,3 +37,10 @@ class TestMyCalculator(unittest.TestCase):
         # Comprobamos si el valor es el que esperamos
         self.assertEqual(8, self.calc.value)
 
+    # Creamos un nuevo test para comprobar la multiplicacion
+    def test_division_method(self):
+        # Ejecutamos el método
+        self.calc.division(9, 3)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(3, self.calc.value)
+
