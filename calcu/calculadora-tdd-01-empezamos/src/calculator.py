@@ -5,3 +5,7 @@ class Calculator:
     #creamos funcion para que funcione la suma
     def add(self, a, b):
         self.value = a + b
+
+    #creamos una funcion para la resta
+    def resta(self, a, b):
+        self.value = a - b

@@ -23,4 +23,10 @@ class TestMyCalculator(unittest.TestCase):
         # Comprobamos si el valor es el que esperamos
         self.assertEqual(4, self.calc.value)
 
+    # Creamos un nuevo test para comprobar la resta
+    def test_resta_method(self):
+        # Ejecutamos el método
+        self.calc.resta(3, 1)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(2, self.calc.value)
 
