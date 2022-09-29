@@ -30,3 +30,10 @@ class TestMyCalculator(unittest.TestCase):
         # Comprobamos si el valor es el que esperamos
         self.assertEqual(2, self.calc.value)
 
+    # Creamos un nuevo test para comprobar la multiplicacion
+    def test_multi_method(self):
+        # Ejecutamos el método
+        self.calc.multi(2, 4)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(8, self.calc.value)
+
