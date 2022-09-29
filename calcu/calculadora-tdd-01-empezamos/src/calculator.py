@@ -17,3 +17,7 @@ class Calculator:
     #creamos una funcion para la division
     def division(self, a, b):
         self.value = a / b
+
+    #creamos una funcion para la potencia(siendo a la base y b el exponente)
+    def potencia(self, a, b):
+        self.value = a ** b
