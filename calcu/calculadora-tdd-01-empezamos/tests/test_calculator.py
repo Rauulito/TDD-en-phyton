@@ -51,3 +51,10 @@ class TestMyCalculator(unittest.TestCase):
         # Comprobamos si el valor es el que esperamos
         self.assertEqual(16, self.calc.value)
 
+    # Creamos un nuevo test para comprobar el factorial
+    def test_factorial_method(self):
+        # Ejecutamos el método
+        self.calc.factorial(3)
+        # Comprobamos si el valor es el que esperamos
+        self.assertEqual(6, self.calc.value)
+
