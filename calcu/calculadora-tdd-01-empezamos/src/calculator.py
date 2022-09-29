@@ -1,4 +1,3 @@
-
-#creamos clase calculator con el minimo codigo posible para probar el test
 class Calculator:
-    pass
+    def __init__(self):
+        self.value = 0
